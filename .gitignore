@@ -1,0 +1,27 @@
+﻿# Python venv & cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Large libs & binaries we NEVER push
+*.dll
+*.pyd
+*.so
+*.dylib
+
+# Embedding indexes are regenerated on each machine
+factbook-assistant/*_embeddings.json
+
+# Audio + transcripts (local artifacts)
+factbook-assistant/CITL Transcripts/
+*.wav
+*.summary.txt
+
+# VS Code / editor junk
+.vscode/
+*.code-workspace
+
+# Build / dist artifacts
+dist/
+build/

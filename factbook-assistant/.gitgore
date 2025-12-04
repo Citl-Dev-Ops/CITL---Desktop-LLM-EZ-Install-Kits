@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated embedding indexes
+*_embeddings.json
+
+# Audio + transcripts
+CITL Transcripts/
+*.wav
+*.summary.txt
